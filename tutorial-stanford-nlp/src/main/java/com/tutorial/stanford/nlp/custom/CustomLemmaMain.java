@@ -30,9 +30,9 @@ public class CustomLemmaMain {
 	    // create a document object
 	    CoreDocument document = pipeline.processToCoreDocument(text);
 	    // display tokens
-	    List<CoreLabel> drs = document.annotation().get(TokensAnnotation.class);
-	    for(CoreLabel dr: drs) {
-	    	System.out.println(dr.originalText()+ "| " + dr.get(CustomLemmaAnnotation.class));
+	    List<CoreLabel> hindLemma = document.annotation().get(TokensAnnotation.class);
+	    for(CoreLabel lemma: hindLemma) {
+	    	System.out.println(lemma.originalText()+ "| " + lemma.get(CustomLemmaAnnotation.class));
 	    }
 	}
 }
