@@ -27,7 +27,7 @@ public class CustomLemmaAnnotator implements Annotator {
 	public void annotate(Annotation annotation) {
 		for (CoreLabel token : annotation.get(CoreAnnotations.TokensAnnotation.class)) {
 			String lemma = wordToLemma.getOrDefault(token.word(), token.word());
-			token.set(CoreAnnotations.LemmaAnnotation.class, lemma);
+			token.set(CustomLemmaMain.CustomLemmaAnnotation.class, lemma);
 		}
 	}
 
