@@ -22,3 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.metadata/
+/tutorial-stanford-nlp/target/classes/
+/tutorial-stanford-nlp/.classpath
+/tutorial-stanford-nlp/.project
+/tutorial-stanford-nlp/.settings/org.eclipse.core.resources.prefs
+/tutorial-stanford-nlp/.settings/org.eclipse.jdt.apt.core.prefs
+/tutorial-stanford-nlp/.settings/org.eclipse.jdt.core.prefs
+/tutorial-stanford-nlp/.settings/org.eclipse.m2e.core.prefs
